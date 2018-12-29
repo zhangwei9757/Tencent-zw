@@ -1,0 +1,6 @@
+<!--pages/tpai/tpai.wxml-->
+<button bindtap='play'>播放</button>
+<textarea>12313</textarea>
+<button id='voice' bindtouchstart='start' bindtouchend='stop'>
+  <image src='../images/voice_.png'/>
+</button>

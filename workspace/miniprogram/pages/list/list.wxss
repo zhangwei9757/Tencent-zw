@@ -1,0 +1,35 @@
+page{
+  width: 100%;
+  font-size: 30rpx;
+}
+image{
+  width: 100%;
+}
+.showInfo{
+  border: 1px rgba(128, 128, 128, 0.178) solid;
+  background-color: whitesmoke;
+  height: 200rpx;
+  line-height: 200rpx;
+  padding-left: 20rpx;
+  margin: 10rpx 20rpx 10rpx 20rpx;
+  border-radius: 20rpx;
+  box-shadow: 3rpx gold 3rpx 3rpx 3rpx;
+  box-sizing: 1rpx;
+}
+.showInfo button{
+  float: right;
+  top: 70rpx;
+  right: 20rpx;
+}
+.many,.gender{
+  display: inline;
+  
+}
+.many{
+  margin-right: 10rpx;
+  color: red;
+}
+.gender{
+  font-size: 40rpx;
+  margin-right: 40rpx;
+}

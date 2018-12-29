@@ -1,0 +1,28 @@
+<view>
+  <audio src='http://fs.w.kugou.com/201810102014/7893624e9e00810b8d075673124f4757/G083/M02/13/0F/84YBAFglMBOAEqOBACsvZXO7De4868.mp3' loop></audio>
+<!-- <image src='{{src}}' mode='aspectFill' ></image> -->
+  <view class='showInfo'>
+    <view class='gender'>初中英语</view>
+    <view class='many'>138</view>元/小时
+    <button hover-class="customer" size='mini' bindtap='makePhoneCall' type='primary'>咨询</button>
+  </view>
+
+  <view class='showInfo'>
+    <view class='gender'>高中英语</view>
+    <view class='many'>158</view>元/小时
+    <button hover-class="customer" size='mini' bindtap='makePhoneCall' type='primary'>咨询</button>
+  </view>
+
+  <view class='showInfo'>
+    <view class='gender'>初中英语[一对一]</view>
+    <view class='many'>168</view>元/小时
+    <button hover-class="customer" size='mini' bindtap='makePhoneCall' type='primary'>咨询</button>
+  </view>
+
+  <view class='showInfo'>
+    <view class='gender'>高中英语[一对一]</view>
+    <view class='many'>198</view>元/小时
+    <button hover-class="customer" size='mini' bindtap='makePhoneCall' type='primary'>咨询</button>
+  </view>
+</view>
+   

@@ -1,0 +1,48 @@
+<view class='home'>
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+  <view class='address'>
+    <view class='address_left'bindtap='addressCall'>
+    <image  src='../images/address.png'/>
+      荆州市荆州城区郢都路长大文理学院内
+    </view>
+    <view class='address_right' bindtap="makePhoneCall"> 
+      <image bindtap="makePhoneCall" src='../images/phone.png'/>
+    </view>
+  </view>
+
+  <view class='title_head'>
+    <view class='title_'>学习氛围</view>
+  </view>
+
+  <scroll-view scroll-x>
+
+  </scroll-view>
+    <image src='{{show2}}'/>
+    <image src='{{show3}}'/>
+    <image src='{{show5}}'/>
+
+  <view class='teacher'>
+    <view class='title_'>师资力量</view>
+  </view>
+  <image src='{{show4}}'/>
+
+  <!-- <view>
+      <view>
+      <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+      <button type="primary" bindtap="audioPlay">播放</button>
+      <button type="primary" bindtap="audioPause">暂停</button>
+      <button type="primary" bindtap="audio14">设置当前播放时间为14秒</button>
+      <button type="primary" bindtap="audioStart">回到开头</button>
+      </view>
+      <view class='head_img'><image src='{{imageSrc}}' mode='{{mode}}'></image></view>
+    
+  </view> -->
+</view>

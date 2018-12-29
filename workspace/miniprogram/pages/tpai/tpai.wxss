@@ -1,0 +1,25 @@
+/* pages/tpai/tpai.wxss */
+#voice {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+  position: absolute;
+  left: 40%;
+  line-height: 150rpx;
+  bottom: 100rpx;
+  background-image: '../images/voice.png'; 
+  background-color: #32CD32;
+  /* border: 1px solid black; */
+}
+
+image {
+  width: 86rpx;
+  height: 86rpx;
+  border-radius: 43rpx;
+  position: relative;
+  top: 25rpx;
+}
+
+/* textarea{
+  text-align: center;
+} */

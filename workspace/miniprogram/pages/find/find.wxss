@@ -1,0 +1,84 @@
+page{
+  /* background-color: yellow; */
+  width: 100%;
+  margin: 0rpx;
+  padding: 0rpx;
+  }
+image{
+  width: 100%;
+}
+.home{
+  /* height: 1500rpx; */
+  /* border: 1px red solid; */
+}
+.swiper{
+  /* border: 1px red solid; */
+}
+.swiper image{
+  
+}
+.head_img {
+ margin: 0rpx;
+ width: 100%
+}
+.address{
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  font-size: 29.5rpx;
+  border-top: 6rpx #e6e6e6 solid;
+  border-bottom: 6rpx #e6e6e6 solid;
+  /* background-color: yellow; */
+}
+.address_left{
+  flex: 4;
+  text-indent: 20rpx;
+  /* height: 50rpx; */
+  /* background-color: green; */
+}
+.address_right{
+  line-height: 40rpx;
+  text-align: center;
+  border-left: 1px #e6e6e6 solid;
+  flex: 1;
+  /* width: 50rpx; */
+  /* height: 50rpx; */
+  /* background-color: blue; */
+}
+.address_left image{
+  vertical-align: text-bottom;
+  margin-right: 10rpx;
+  margin-left: 15rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+.address_right image{
+  vertical-align: middle;
+  width: 65rpx;
+  height: 65rpx;
+}
+
+
+.title_head{
+  /* border: 1px #32CD32 solid; */
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 100%;
+}
+.title_{
+  width: 155rpx;
+  /* font-size: 30rpx; */
+  background-color: #32CD32;
+  text-align: center;
+  color: white;
+}
+
+.teacher{
+  margin-top: -10rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
